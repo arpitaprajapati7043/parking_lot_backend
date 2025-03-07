@@ -37,7 +37,7 @@ const serviceAccount = {
 try {
   admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: process.env.FIREBASE_DATABASE_URL // Database URL from .env file
+    databaseURL: process.env.FDB_URL // Database URL from .env file
   });
   console.log('Firebase Initialized');
 } catch (error) {
