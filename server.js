@@ -11,7 +11,7 @@ const PORT=process.env.PORT || 8282
 
 
 app.use(cors({
-    origin: 'http://localhost:5173', // Frontend URL
+    origin: 'https://trk-p-new-git.onrender.com/', // Frontend URL
     credentials: true, // Allow cookies with credentials (if needed)
   }));
 
